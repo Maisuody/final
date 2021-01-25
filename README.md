@@ -24,17 +24,18 @@ in this project we implement our Neural Network , a Neural network is simply a f
 ```
 # First module
 ## load_data
-def loadData(file_path, y , indexY):
+- input -- file_path, y , indexY
 y is the Label
 indexY the index of label
+return all_pixels, Labels
 
-def image(image_path): 
+- input -- image_path 
 Take the image and make resize for image then return all pixels in the image
 
-def normalization(pixels):
+- input -- pixels
 Normalize any input by dividing by 255 The max value
 
-def split_dataset(all_pixels, Labels,testSize):
+- input -- split_dataset(all_pixels, Labels,testSize):
 testSize is th size of train 
 and Return x_train, y_train, x_tests , y_tests
 
